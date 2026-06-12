@@ -2,6 +2,16 @@
 
 Flutter POC for a ride-hailing / food delivery app with ZEGO Cloud call masking, Google Maps route preview, Stripe checkout split, and a driver-passenger ride state machine.
 
+## Demo
+
+Real iOS-Simulator captures from the running app (see [FLOW.md](FLOW.md) for how they were generated).
+
+| Home | Active ride | ZEGO call mask |
+| --- | --- | --- |
+| ![Home](screenshots/01-home.png) | ![Active ride](screenshots/02-ride-matched.png) | ![ZEGO call mask](screenshots/03-zego-call-mask.png) |
+
+![Demo](screenshots/demo.gif)
+
 ## What it shows
 
 - Pickup + dropoff entry with mock Google Maps preview (route, distance, fare estimate).
